@@ -1,3 +1,3 @@
 $(function(){
-  alert("Spam!");
+  $("#tmpl").tmpl().appendTo("#page");
 });
