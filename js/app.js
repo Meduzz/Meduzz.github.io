@@ -1,5 +1,5 @@
 $(function(){
-  $("h1 title").val("Tests...");
+  $("h1").text("Tests...");
   
   $("#tmpl").tmpl().appendTo("#page");
 });
