@@ -98,25 +98,17 @@ $(function(){
 
     med = Math.round(med/count);
     var fifth = max*0.2;
-
+    
     for (var tag in tags) {
       var c = tags[tag];
       
-      if (c === max) {
-        tags[tag] = 5;
-      } else if (c === med) {
-        tags[tag] = 3;
-      } else if (c === min) {
-        tags[tag] = 1;
-      } else {
-        var i = 1;
-        
-        while (i < 6) {
-          if (c < i*fifth) {
-            tags[tag] = i;
-          }
-          i++;
+      var i = 1;
+
+      while (i < 6) {
+        if (c > i*fifth) {
+          tags[tag] = i;
         }
+        i++;
       }
     }
     
