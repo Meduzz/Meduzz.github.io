@@ -51,8 +51,13 @@
       <div class="col-md-4 panel panel-default">
         <h5>${name}</h5>
         <p>${desc}</p>
+        <p>{{tmpl(tags) "#tagItemTmpl"}}</p>
         <p><a href="${link}" target="_BLANK">Visit</a></p>
       </div>
+    </script>
+    
+    <script type="text/x-jquery-tmpl" id="tagItemTmpl">
+      #${this.data}&nbsp;
     </script>
   </body>
 </html>
