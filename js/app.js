@@ -1,5 +1,5 @@
 $(function(){
-  $("h1").text("Projects / tools / sites I keep an eye on");
+  $("h1").text("Projects / tools / sites I keep an eye on or intend to try out.");
   $("#itemsTmpl").tmpl().appendTo("#page");
 
   var ItemsView = Backbone.View.extend({
