@@ -15,7 +15,7 @@
   "tags":["redis", "client", "db", "nosql", "scala"]
 },{
   "name": "Scalate",
-  "link":"",
+  "link":"http://scalate.fusesource.org",
   "desc":"The one size fits all scala templating engine.",
   "tags":["scala", "templates"]
 },{
@@ -25,27 +25,27 @@
   "tags":["docker", "containers"]
 },{
   "name": "RabbitMQ",
-  "link":"",
+  "link":"http://www.rabbitmq.com",
   "desc":"An excellent amqp.",
   "tags":["amqp", "messaging"]
 },{
   "name": "Mesos",
-  "link":"",
+  "link":"https://mesos.apache.org",
   "desc":"A piece of software that takes over the heavy lifting of distributing tasks.",
   "tags":["cluster", "mesos"]
 },{
   "name": "Marathon",
-  "link":"",
-  "desc":"An UI for Mesos.",
+  "link":"https://github.com/mesosphere/marathon",
+  "desc":"\"Cluster-wide init and control system for services in cgroups or docker based on Apache Mesos.\"",
   "tags":["mesos"]
 },{
   "name": "Redis-dns",
-  "link":"",
+  "link":"https://github.com/colmsjo/redis-dns",
   "desc":"A node.js lib that can act as a dns.",
   "tags":["dns", "node.js"]
 },{
   "name": "Cassandra",
-  "link":"",
+  "link":"https://cassandra.apache.org",
   "desc":"Apparently it's supposed to be a pretty descent DB :) (column store).",
   "tags":["db", "nosql"]
 },{
@@ -55,127 +55,127 @@
   "tags":["redis", "db", "nosql"]
 },{
   "name": "Open vSwitch",
-  "link":"",
+  "link":"http://openvswitch.org",
   "desc":"A lib to create virtual networks with.",
   "tags":[]
 },{
   "name": "GlusterFS",
-  "link":"",
+  "link":"http://www.gluster.org",
   "desc":"A distributed filesystem, like black magic.",
   "tags":["cluster", "fs"]
 },{
   "name": "BTRFS",
-  "link":"",
+  "link":"https://btrfs.wiki.kernel.org/index.php/Main_Page",
   "desc":"A filesytem on some kind of binary tree, supposidly makes it pretty fast.",
   "tags":["fs"]
 },{
   "name": "Undertow",
-  "link":"",
+  "link":"http://undertow.io/index.html",
   "desc":"Redhats new minimalistic servlet container.",
   "tags":["servlet", "java"]
 },{
   "name": "D3",
-  "link":"",
-  "desc":"A JS lib to draw graphs.",
+  "link":"http://d3js.org",
+  "desc":"A JS lib to draw graphs, it can do ALOT more ofc. Why only add one feature...",
   "tags":["graphs", "js"]
 },{
   "name": "Backbone",
-  "link":"",
+  "link":"http://backbonejs.org",
   "desc":"A quirky JS lib that takes care of routing and all your other needs.",
   "tags":["js", "mmvc"]
 },{
   "name": "Bootstrap",
-  "link":"",
+  "link":"http://getbootstrap.com",
   "desc":"A colleciton of CSS and JS-components / utils, with descent APIs.",
   "tags":["css", "js"]
 },{
   "name": "WebRTC",
-  "link":"",
+  "link":"http://www.webrtc.org",
   "desc":"An upcoming standard for video and audio communication between 2 webbrowsers.",
   "tags":[]
 },{
   "name": "Dockerode",
-  "link":"",
+  "link":"https://github.com/apocas/dockerode",
   "desc":"One of many remote docker-api clients for node.js.",
   "tags":["docker", "node.js", "client"]
 },{
   "name": "Dockerfile",
-  "link":"",
+  "link":"https://github.com/jden/dockerfile",
   "desc":"Create dockerfiles from kind of templates or metadata in node.js.",
   "tags":["docker", "node.js"]
 },{
   "name": "akka-amqp",
-  "link":"",
+  "link":"https://github.com/drexin/akka-amqp",
   "desc":"Drexins excellent akka extension and amqp wrapper.",
   "tags":["akka", "amqp", "messaging", "client", "scala"]
 },{
   "name": "Snappy",
-  "link":"",
+  "link":"https://code.google.com/p/snappy/",
   "desc":"Google need fast compression, Google make fast compression.",
   "tags":["snappy"]
 },{
   "name": "dain/snappy",
-  "link":"",
-  "desc":"A javaport for snappy compression, made by dain.",
+  "link":"https://github.com/dain/snappy",
+  "desc":"A javaport for snappy compression, made by dain. dain also have a port of leveldb fyi :) ",
   "tags":["snappy", "java"]
 },{
   "name": "node-snappy",
-  "link":"",
-  "desc":"A node.js lib for snappy compression, mady by kessla.",
+  "link":"https://github.com/kesla/node-snappy",
+  "desc":"A node.js lib for snappy compression, mady by kessla. Also have a look at the forks.",
   "tags":["snappy", "node.js"]
 },{
   "name": "sbt-protobuf",
-  "link":"",
+  "link":"https://github.com/sbt/sbt-protobuf",
   "desc":"Compile protobufs from sbt.",
   "tags":["protobuf", "scala"]
 },{
   "name": "Vines",
-  "link":"",
-  "desc":"A node.js gossip protocol implementation.",
+  "link":"https://www.npmjs.org/package/vines",
+  "desc":"A node.js gossip protocol implementation. Cant find sources atm.",
   "tags":["node.js", "cluster"]
 },{
   "name": "Reveal.js",
-  "link":"",
+  "link":"https://github.com/hakimel/reveal.js",
   "desc":"The lib every hipster uses for their presentations.",
-  "tags":[]
+  "tags":["node.js"]
 },{
   "name": "Phantomjs",
-  "link":"",
+  "link":"http://phantomjs.org",
   "desc":"A lib for seleniumlike tests in node.js.",
   "tags":["testing", "node.js"]
 },{
   "name": "Sparc",
-  "link":"",
+  "link":"http://spark.apache.org",
   "desc":"Software for data analysis in mass.",
   "tags":["scala", "big data"]
 },{
   "name": "PredictIO",
-  "link":"",
-  "desc":"A machine learning lib.",
-  "tags":["ai", "scala", "rest"]
+  "link":"http://prediction.io",
+  "desc":"A simple machine learning lib.",
+  "tags":["ai", "rest"]
 },{
   "name": "Project atomic",
-  "link":"",
+  "link":"http://www.projectatomic.io",
   "desc":"A minimalistic linux dist(Red hat) to use as foundation for PAASes.",
   "tags":["docker", "linux"]
 },{
   "name": "Torquebox",
-  "link":"",
+  "link":"http://torquebox.org",
   "desc":"A ruby lib that runs on top of AS7. Yeah, that's ruby on a JVM app-server.",
   "tags":["ruby", "java"]
 },{
   "name": "CoreOS",
-  "link":"",
+  "link":"https://coreos.com",
   "desc":"A minimalistic linux dist that runs pretty tightly with Docker.",
   "tags":["docker", "linux"]
 },{
   "name": "Consule.io",
-  "link":"",
+  "link":"http://www.consul.io",
   "desc":"A software that solves certain problems around service discovery.",
   "tags":["rest", "cluster"]
 },{
   "name": "OpenCV",
-  "link":"",
+  "link":"http://opencv.org",
   "desc":"An imagereading lib, that can do facial recognition among other things.",
   "tags":["java"]
 }]
