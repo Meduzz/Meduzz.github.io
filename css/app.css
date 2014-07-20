@@ -27,3 +27,8 @@
 #main .panel {
   min-height: 150px;
 }
+
+h1 small {
+  font-size: 14px;
+  color: #cccccc;
+}
