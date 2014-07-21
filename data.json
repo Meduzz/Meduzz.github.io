@@ -178,4 +178,9 @@
   "link":"http://opencv.org",
   "desc":"An imagereading lib, that can do facial recognition among other things.",
   "tags":["java"]
+},{
+  "name": "Akka",
+  "link":"http://www.akka.io",
+  "desc":"Actors in scala for a better world.",
+  "tags":["scala", "akka"]
 }]
